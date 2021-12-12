@@ -1,0 +1,37 @@
+#header {
+  background-color: grey;
+}
+#header ul {
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar a {
+  display: block;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.drop-button {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.drop-item {
+  border: 1px solid brown;
+  padding: 10px;
+}
+
+.drop-menu {
+  display: none;
+  position: absolute;
+}
+
+.visible {
+  display: block;
+}
